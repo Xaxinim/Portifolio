@@ -1,0 +1,82 @@
+/*Configuração Global do Layout*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background-color: #f8f4f4;
+}
+
+/*Estilo dos links*/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*Design das seções (tags section)*/
+
+nav{
+    width: 100%;
+    background-color: #0e4863;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    color: #F6C545;
+    font-family:  'Bebas Neue', cursive;
+    font-size: 2em;
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.nav .name a{
+    color: #fff;
+}
+
+.nav .name a:hover{
+    color: #ff0037;
+}
+
+.nav li:nth-child(2) {
+    padding: 15px;
+    color: white;
+  }
+  
+  .nav li:nth-child(3) {
+    padding: 15px;
+    color: white;
+  }
+  
+  .nav li:nth-child(4) {
+    padding: 15px;
+    color: white;
+  }
+
+.nav a{
+    transition: all .5s;
+}
+
+.nav a:hover{
+    color: #F6C545;
+}
+a:active{
+    color:#F6C545;
+}
