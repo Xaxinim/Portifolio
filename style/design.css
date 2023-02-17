@@ -81,6 +81,82 @@ nav {
 a:active {
     color: #F6C545;
 }
+/*Início do cabeçalho*/
+    
+header{
+    text-align: center;
+    background:url(../images/North-American-P-51.jpg)no-repeat bottom center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 60px;
+    line-height: 1.5;
+}
+
+header .profile-image{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    transition: ease-in .7s;
+}
+
+header .profile-image:hover{
+    transform: scale(1.13) rotate(5deg);
+}
+
+.tag{
+    background-color: #ffffff;
+    color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+}
+
+h1.tag.name{
+transition:  transform .5s;
+}
+h1.tag.name:hover {
+    transform: scale(1.05) translatey(-5px);
+  }
+
+p.tag.location{
+    background-color: #222;
+    color: #F6C545;
+}
+p.tag.location:hover{
+    transform: scale(1.05) translatey(-1px);
+}
+
+section{
+    margin: 30px;
+    padding: 20px 29px 40px;
+    max-width: 400px;
+    min-height: 442px;
+    text-align: left;
+    background: #ffffff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+}
+
+section:hover{
+    background-color: #C28800;
+}
+
+section.home{
+    max-width: 600px;
+    padding: 24px 45px 45px;
+}
+
+section img{
+    float: left;
+    display: block;
+    width:38%;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+
 
 
 
