@@ -1,9 +1,9 @@
 /*Configuração Global do Layout*/
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,20 +13,20 @@ body{
 }
 
 /*Estilo dos links*/
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
 
 /*Design das seções (tags section)*/
 
-nav{
+nav {
     width: 100%;
     background-color: #0e4863;
 }
 
-.nav{
-    display:flex;
+.nav {
+    display: flex;
     justify-content: space-around;
     font-weight: 700;
     list-style-type: none;
@@ -34,12 +34,12 @@ nav{
     padding: 0;
 }
 
-.nav .name{
+.nav .name {
     display: block;
     width: 50%;
     margin-right: auto;
     color: #F6C545;
-    font-family:  'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     padding-top: 5px;
     text-align: left;
@@ -47,36 +47,67 @@ nav{
 
 }
 
-.nav .name a{
+.nav .name a {
     color: #fff;
 }
 
-.nav .name a:hover{
+.nav .name a:hover {
     color: #ff0037;
 }
 
 .nav li:nth-child(2) {
     padding: 15px;
     color: white;
-  }
-  
-  .nav li:nth-child(3) {
-    padding: 15px;
-    color: white;
-  }
-  
-  .nav li:nth-child(4) {
-    padding: 15px;
-    color: white;
-  }
-
-.nav a{
-    transition: all .5s;
 }
 
-.nav a:hover{
+.nav li:nth-child(3) {
+    padding: 15px;
+    color: white;
+}
+
+.nav li:nth-child(4) {
+    padding: 15px;
+    color: white;
+}
+
+.nav a {
+    transition: ease-in .5s
+}
+
+.nav a:hover {
     color: #F6C545;
 }
-a:active{
-    color:#F6C545;
+
+a:active {
+    color: #F6C545;
 }
+
+
+
+
+
+
+
+/*
+@media screen and (max-width:600px) {
+    .nav {
+        flex-direction: column;
+        
+    }
+    
+    nav li:hover {
+        transition: .5s;
+        background-color: #2662a7;
+    }
+    
+    .nav .name {
+        background-color: #f8f4f400;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    
+    
+}
+*/
