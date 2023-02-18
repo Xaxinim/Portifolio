@@ -139,7 +139,7 @@ section{
 }
 
 section:hover{
-    background-color: #C28800;
+    border-color: #C28800;
 }
 
 section.home{
@@ -156,10 +156,68 @@ section img{
     margin-bottom: 8px;
 }
 
+h2{
+    margin-bottom: 32px;
+}
 
+h3.goals{
+    text-align: center;
+    color: #990000;
+}
 
+strong{
+    color: #990000;
+}
 
+footer{
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0px 40px 20px;
+}
 
+.copyright{
+    top:-8px;
+    font-size: 0.65em;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    
+}
+
+.social{
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: 0.8;
+    
+}
+
+.github{
+    background-image: url(../images/github.svg);
+}
+
+.instagram{
+    background-image: url(../images/icons8-instagram.svg)
+}
+.facebook{
+    background-image: url(../images/icons8-facebook.svg);
+}
+
+.social:hover{
+    opacity: 1;
+    width: 31px;
+    height: 31px
+}
 
 
 
