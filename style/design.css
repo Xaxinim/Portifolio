@@ -22,7 +22,7 @@ a {
 
 nav {
     width: 100%;
-    background-color: #0e4863;
+    background-color: #263f92;
 }
 
 .nav {
@@ -81,29 +81,30 @@ nav {
 a:active {
     color: #F6C545;
 }
+
 /*Início do cabeçalho*/
-    
-header{
+
+header {
     text-align: center;
-    background:url(../images/North-American-P-51.jpg)no-repeat bottom center;
+    background: url(../images/North-American-P-51.jpg)no-repeat bottom center;
     background-size: cover;
     overflow: hidden;
     padding: 60px;
     line-height: 1.5;
 }
 
-header .profile-image{
+header .profile-image {
     margin-top: 50px;
     width: 150px;
     height: 150px;
     transition: ease-in .7s;
 }
 
-header .profile-image:hover{
+header .profile-image:hover {
     transform: scale(1.13) rotate(5deg);
 }
 
-.tag{
+.tag {
     background-color: #ffffff;
     color: #222;
     padding: 10px;
@@ -112,23 +113,25 @@ header .profile-image:hover{
     margin: 10px auto;
 }
 
-h1.tag.name{
-transition:  transform .5s;
+h1.tag.name {
+    transition: transform .5s;
 }
+
 h1.tag.name:hover {
     transform: scale(1.05) translatey(-5px);
-  }
+}
 
-p.tag.location{
+p.tag.location {
     background-color: #222;
     color: #F6C545;
 }
-p.tag.location:hover{
+
+p.tag.location:hover {
     transform: scale(1.05) translatey(-1px);
 }
 
 
-section{
+section {
     display: inline-table;
     margin: 30px;
     padding: 20px 29px 40px;
@@ -140,65 +143,67 @@ section{
     border-radius: 6px;
 }
 
-section:hover{
+section:hover {
     border-color: #C28800;
 }
 
-section.home{
+section.home {
     max-width: 600px;
     padding: 24px 45px 45px;
 }
 
-section img{
+section img {
     float: left;
     display: block;
-    width:38%;
+    width: 38%;
     height: auto;
     margin-right: 15px;
     margin-bottom: 8px;
 }
 
-h2{
+h2 {
     margin-bottom: 32px;
 }
 
-h3.goals{
+h3.goals {
     text-align: center;
     color: #990000;
 }
 
-strong{
+strong {
     color: #990000;
 }
 
-footer{
+footer {
     bottom: 0;
-   
+
     width: 100%;
     min-height: 30px;
     padding: 20px 0px 40px 20px;
 }
 
-.copyright{
-    top:-8px;
+.copyright {
+    top: -8px;
     font-size: 0.65em;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-footer ul li{
+footer ul li {
     display: inline-block;
-    
-    
+
+
 }
-.notes{
+
+.notes {
     font-size: 12px;
 }
-.social{
+
+.social {
     display: inline-block;
     text-indent: -9999px;
     margin-left: 5px;
@@ -206,28 +211,30 @@ footer ul li{
     height: 30px;
     background-size: 30px 30px;
     opacity: 0.8;
-    
+
 }
 
-.github{
+.github {
     background-image: url(../images/github.svg);
 }
 
-.instagram{
+.instagram {
     background-image: url(../images/icons8-instagram.svg)
 }
-.facebook{
+
+.facebook {
     background-image: url(../images/icons8-facebook.svg);
 }
 
-.social:hover{
+.social:hover {
     opacity: 1;
     width: 31px;
     height: 31px
 }
+
 .clearfix {
     clear: both;
-  }
+}
 
 
 
@@ -235,21 +242,21 @@ footer ul li{
 @media screen and (max-width:600px) {
     .nav {
         flex-direction: column;
-       
+
     }
-    
+
     nav li:hover {
         transition: .5s;
         background-color: #2662a7;
     }
-    
+
     .nav .name {
         background-color: #f8f4f400;
         width: 100%;
         text-align: center;
-        
+
     }
-    
-    
-    
+
+
+
 }
