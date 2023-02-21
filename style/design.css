@@ -127,7 +127,9 @@ p.tag.location:hover{
     transform: scale(1.05) translatey(-1px);
 }
 
+
 section{
+    display: inline-table;
     margin: 30px;
     padding: 20px 29px 40px;
     max-width: 400px;
@@ -170,6 +172,8 @@ strong{
 }
 
 footer{
+    bottom: 0;
+   
     width: 100%;
     min-height: 30px;
     padding: 20px 0px 40px 20px;
@@ -189,8 +193,11 @@ footer ul{
 footer ul li{
     display: inline-block;
     
+    
 }
-
+.notes{
+    font-size: 12px;
+}
 .social{
     display: inline-block;
     text-indent: -9999px;
@@ -218,15 +225,17 @@ footer ul li{
     width: 31px;
     height: 31px
 }
+.clearfix {
+    clear: both;
+  }
 
 
 
 
-/*
 @media screen and (max-width:600px) {
     .nav {
         flex-direction: column;
-        
+       
     }
     
     nav li:hover {
@@ -244,4 +253,3 @@ footer ul li{
     
     
 }
-*/
